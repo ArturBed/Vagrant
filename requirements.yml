@@ -1,7 +1,7 @@
-- name: Introduction to Playbooks
-  hosts: local
-  connection: local
-  become: true
+#- name: Introduction to Playbooks
+#  hosts: local
+#  connection: local
+#  become: true
 
   roles:
     - name: geerlingguy.docker
