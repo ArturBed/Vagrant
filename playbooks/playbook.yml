@@ -1,7 +1,8 @@
 ---
-- name:
+- name: Roles to creating USER and GROUP 
   hosts: all
   become: true
+  
   roles:
-  - package
+  - packages
   - user
