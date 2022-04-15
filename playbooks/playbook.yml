@@ -1,6 +1,7 @@
 ---
 - name: Roles, Group and Tools
   hosts: all
+  connection: local
   become: true
   vars:
     docker_users:
