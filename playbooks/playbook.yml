@@ -6,6 +6,7 @@
   vars:
     docker_users:
       - panda
+      - vagrant
 
   roles:
   - packages
